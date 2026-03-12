@@ -42,25 +42,6 @@ Development Tools
 
 ---
 
-# 📂 Project Structure
-
-```
-shopping-cart-with-sequelize
-│
-├── controllers
-├── models
-├── routes
-├── views
-├── public
-├── util
-│
-├── app.js
-├── package.json
-└── package-lock.json
-```
-
----
-
 # ⚙️ Installation
 
 ### 1️⃣ Clone the repository
@@ -81,26 +62,7 @@ cd Shopping-Cart-with-Sequelize
 npm install
 ```
 
----
-
-# 🗄️ Environment Variables
-
-Create a `.env` file in the root directory and add:
-
-```
-DB_USER=your_mysql_username
-DB_DATABASE=your_database_name
-DB_PWD=your_mysql_password
-```
-
----
-
 # 🛢️ Database Setup
-
-1. Install **MySQL**
-2. Create a database
-
-Example:
 
 ```
 CREATE DATABASE shopping_cart;
